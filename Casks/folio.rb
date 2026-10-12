@@ -4,11 +4,11 @@ cask "folio" do
 
   url "https://github.com/Hong-Iron/folio/releases/download/v#{version}/Folio-#{version}.dmg"
   name "Folio"
-  desc "Counts the time you really study, using your Mac's camera"
+  desc "Counts the time you really study, using the camera"
   homepage "https://github.com/Hong-Iron/folio"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Folio.app"
 
